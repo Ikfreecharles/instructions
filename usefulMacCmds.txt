@@ -1,0 +1,1 @@
+To show/hide hidden files in finder  - Cmd + shift + .

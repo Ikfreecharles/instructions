@@ -1,0 +1,21 @@
+Installing Rpi on the SD card
+
+- Download Rpi (mac - https://downloads.raspberrypi.org/imager/imager_latest.dmg)
+- Run the installer
+- Choose the OS with "Choose os"
+- Choose the storage with "Choose storage"
+- Click on the "cogwheel icon" to set advanced options like hostname, enable SSH, username, password, wifi
+- select WRITE to install Raspberry Pi OS to your microSD card
+
+Starting and updating the Rpi
+
+- Insert the SD card into the Rpi and connect to power supply
+- Open a terminal session to run the Rpi
+    Start a session - ssh username@hostname.local
+    When asked, use the password set in the step above
+Useful commands to run frequently
+    sudo apt update
+    sudo apt full-upgrade
+    sudo reboot
+    To install packages - sudo apt install -y <package>
+    To go into file edit mode - sudo nano <file>

@@ -1,0 +1,7 @@
+Format an SD card on mac
+    - Open Disk utility
+    - Select the SD card from the list of available devices
+    - Click on the “Erase” button
+    - Choose the format type and name for the SD card
+        (The most common format types are FAT and ExFAT)
+    -click Erase to begin formatting process
